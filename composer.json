@@ -1,0 +1,7 @@
+{
+    "name": "yline/test-rest-api",
+    "type": "library",
+    "require": {
+        "rbdwllr/reallysimplejwt": "^2.1"
+    }
+}
