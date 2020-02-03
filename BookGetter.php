@@ -15,9 +15,10 @@ class BookGetter{
     public function getJson($isbn){
 
         if(isset($isbn)){
+            //Yhdistetään urli ja laitetaan isbn väliin. Haetaan urlilla
             return file_get_contents($this->urlstart.$isbn.$this->urlend);
         }
 
-        return null;//haetaan json
+        return null;
     }
 }
