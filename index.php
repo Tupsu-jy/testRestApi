@@ -1,7 +1,7 @@
 <?php
 //jwt jolla apia voi käyttää. Ei hyvä paikka siirrä myöhemmin
 $token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbGllbnQiLCJpYXQiOjE1ODA0MDcxOTAsImV4cCI6MTYxMTk0MzE5MCwiYXVkIjoicmVzdGFwaSIsInN1YiI6InRlc3RlciJ9.oML_UZxtYuGjCGOjg3qqYJ6JWBw3a_ZADYBU76wXWGg";
-$url = "https://testrestapi123.000webhostapp.com/";//restapin osoite
+$url = "https://testrestapi123.herokuapp.com/";//restapin osoite
 
 $options = array(
     'http'=>array(
