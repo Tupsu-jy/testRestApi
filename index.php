@@ -65,7 +65,7 @@ if(isset($_POST['GetBook'])){//lisätään kaikki hakuarvot kirjaahakua varten
 <div id="result">
     <?php
     if(isset($_POST['GetMovie']) || isset($_POST['GetBook'])){//jos post on tehty
-        echo $json;//tulostetaan json mitä ylempänä oleva php hakee
+        echo "asdasd";//$json;//tulostetaan json mitä ylempänä oleva php hakee
     }
     ?>
 </div>
